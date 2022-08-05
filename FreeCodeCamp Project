@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+ <body>
+   
+     <div class= "heading">
+  <div class="container">
+  <h1 id="title">Restaraunt Survey</h1>
+    <h2 id="sub-title">Your Feedback To Make Your Local Eatery Better!</h2>
+
+ 
+    <img class="img" src="https://us.123rf.com/450wm/andyadi/andyadi1812/andyadi181200053/114214111-chef-hat-food-restaurant-vector-icon-logo-design-template.jpg?ver=6" alt="Chef's Heart">
+  </div>
+   </div>
+    
+  <form id="survey-form">
+     <div class="personal-info">
+     <div class="container">
+       <ul class="personal-info__list">
+           <li>
+    <label for="name" id="name-label">Name</label>
+      <input type="text" 
+             class="personal-info__data"
+             id="name" 
+             name="name" 
+             placeholder="Name"
+             required>
+           </li>
+           <li>
+    <label for="email" id="email-label">Email</label>
+      <input type="email" 
+             class="personal-info__data"
+             id="email" 
+             name="email" 
+             placeholder="Email@"
+             required>
+           </li>
+           <li>
+    <label for="number" id="number-label">Age</label>
+      <input type="number" 
+             class="personal-info__data"
+             id="number"
+             name="age"  
+             min="1" max="115" 
+             placeholder="18"
+             required>
+           </li>
+       </ul>    
+  </div>
+      </div>
+      
+  <div class="wrapper"> 
+    <div class="food-rating"> 
+      <div class="container">
+     <h3>How would you rate the food?</h3>
+   <select id="dropdown" name="1">
+     <option value="">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+   
+    </select>
+   </div>
+  </div>
+    </div>
+   
+ <div class="wrapper">
+  <div class="location-details">
+    <div class="container">
+      <h3>What area are you visting from today?</h3>
+     <select id="destintion" name="desination">
+       <optgroup label="cities">
+       <option value="Ballground">Ballground</option>
+       <option value="Canton">Canton</option>
+       <option value="Cartersville">Cartersville</option>
+       <option value="Dallas"> Dallas</option>
+       <option value="Ellijay">Ellijay</option>
+       <option value="Kennesaw"> Kennesaw</option>
+       <option value="woodstock">Woodstock</option>
+      </optgroup>
+    </select>
+   </div>
+  </div>
+    
+  
+        <div class="container">
+      <div class="options">
+  <fieldset>
+    <legend>
+      <h3>Which Of Our New Meal Options Most Interests You? (choose one)</h3>
+      </legend>
+    <ul class="food-list"> 
+      <li>
+    <label for="mac-n-cheese">Lobster Mac & Cheese
+      <input type="radio" name="new-options" id="mac-n-cheese" value="mac-n-cheese">
+    </label>
+      </li>
+      <li>
+    <label for="salmon-risotto">Salmon Risotto
+  <input type="radio" name="new-options" id="salmon-risotto" value= "salmon risotto">
+       </label>
+      </li>
+      <li>
+    <label for="beef-wellington">Beef Wellington
+       <input type="radio" name="new-options" id="beef-wellington" value= "beef-wellington">
+       </label>
+      </li>
+      <li>
+    <label for="chicken-marsala">Chicken Marsala
+       <input type="radio" name="new-options" id= "chicken-marsala" value="chicken marsala">
+       </label>
+      </li>
+      <li>
+    <label for= "shepards pie">Shepards Pie
+       <input type="radio" name="new-options" id="shepards-pie" value="shepards-pie">
+    </label>
+      </li>
+    </ul>
+  </fieldset>
+     </div> <!--ends options-->
+       </div> <!--ends container-->
+    
+ 
+       
+  <div class="container">
+       <img class="imgfood" src="https://feed-your-sole.com/wp-content/uploads/2021/03/Salmon-Risotto.jpg" alt="Salmon Rissoto">
+       </div>
+  
+ 
+      
+    
+      <p>
+        <div class="container">
+      <footer class="comments">
+       <label for="comments">Have a suggestion? We would love to hear your feedback!</label>
+        
+        <br> <textarea id="comments"></textarea>
+        <button type="submit" id="submit" value="submit">Submit</button>
+      </footer>
+     </div>
+    </div>
+   </form>
+  </body>
+</html>
